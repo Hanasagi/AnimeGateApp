@@ -1,0 +1,52 @@
+::ng-deep body{
+	background:url("https://images8.alphacoders.com/104/1041303.jpg");
+	background-size:cover;
+	font-family:Calibri;
+}
+
+%center {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#wrapper{
+	@extend %center;
+	transform:translateY(50vh);
+	margin-bottom:-50%;
+}
+
+#wrapper>div{
+	@extend %center;
+	background: #2d2e2f;
+    font-size: 30px;
+    height: 30vh;
+    width: 40vw;
+    color: #fff;
+}
+
+#login-form{
+	display:block;
+}
+
+.form-input{
+	width:99%;
+	outline:none;
+	border:none;
+	background-color:#F49C1C;
+}
+form>span{
+    margin-top: 17px;
+    margin-left: -57px;
+    width: 40vw;
+    height: 30px;
+    position: absolute;
+    background-color: #171717;
+}
+input[type="submit"]{
+	float:right;
+	border:none;
+	outline:none;
+	height: 30px;
+	background-color:#F49C1C;
+}
